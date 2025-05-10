@@ -1,0 +1,34 @@
+.container {
+    width: 608px;
+    height: 608px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+
+}
+
+.tile {
+    border: solid blue;
+    box-sizing: border-box;
+    aspect-ratio: 1/1;
+
+}
+
+.button {
+    display:flex;
+    
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.tile:hover {
+    background-color: yellow;
+}
